@@ -1,0 +1,123 @@
+*{
+     background-color: hsl(30, 38%, 92%);
+}
+
+
+body{
+     background-color: white;
+     display: flex;
+}
+
+main{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     border-radius: 10px;
+     background-color: #fff;
+      
+}
+
+
+.image img{
+     max-width: 20vw;
+     max-height: 65vh;
+     border-radius: 10px;
+}
+
+.image{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.image.desktop{
+     opacity: 1;
+
+}
+
+.container{
+     background-color: #fff;
+     justify-content: center;
+     align-items: center;
+     max-width: 25vw;
+     padding: 10px;
+     color: hsl(228, 12%, 48%);
+     
+}
+
+
+
+.container > header {
+text-transform: uppercase;
+letter-spacing: 10px;
+background-color: white;
+font-size: 12px;
+}
+
+.product-name{
+     color: hsl(212, 21%, 14%);
+     max-width: 300px;
+     background-color: white;
+}
+
+.description{
+     background-color: white;
+     margin: 2vw;
+     max-width: 250px;
+    font-size: 18px;
+}
+
+.price{
+     background-color: white;
+     color: hsl(158, 36%, 37%);
+     display: inline-block;
+     padding: 15px;
+}
+
+.price.discount{
+     font-size: 30px;
+     font-weight: 700;
+}
+
+.price.original{
+     text-decoration: line-through;
+}
+
+button{
+     display: flex;
+     background-color: hsl(158, 36%, 37%);
+     color: white;
+     font-weight: 700;
+     font-size: 20px;
+     align-items: center;
+     justify-content: center;
+     width: 20vw;
+     height: 50px;
+     border-radius: 10px;
+     border: color(#000);
+     cursor: pointer;
+     text-align: center;
+     transition: background-color 0,2s ease-in-out;
+      box-shadow: hsl(158, 36%, 37%);
+     img{
+          background-color: transparent;}
+
+}
+
+button:hover{
+     background-color: hsl(159, 36%, 18%);
+}
+
+footer{
+display: flex;
+position: absolute;
+bottom: 0;
+justify-content: center;
+align-items: center;
+width: 95vw;
+}

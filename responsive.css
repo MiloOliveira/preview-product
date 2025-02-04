@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+    
+     main{
+     display: flex;
+     background-color: #fff;
+     flex-direction: column;
+     width: 90vw;
+     height: 70vh;
+     justify-content: center;
+     align-items: center;
+     padding: 5px;
+    }
+
+    .container{
+     background-color: #fff;
+     justify-content: center;
+     align-items: center;
+     max-width: 80vw;
+     padding: 10px;
+     color: hsl(228, 12%, 48%);
+    }
+     
+.image{
+     width: 80vw;
+     height: 200px;
+     overflow: hidden;
+     background-color: #fff;
+}
+
+.image img{
+ scale: 360%;
+}
+
+button{
+     width: 70vw;
+}
+
+
+
+
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
